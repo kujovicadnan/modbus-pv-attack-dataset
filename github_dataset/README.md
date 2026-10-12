@@ -1,5 +1,7 @@
 # Modbus/TCP PV Inverter Attack Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23321340.svg)](https://doi.org/10.5281/zenodo.23321340)
+
 Anonymised Wireshark packet captures from the experimental sessions described in:
 
 **"Exploiting Modbus/TCP in Smart PV Systems: Sustained Command Injection and Denial-of-Service on Commercial Inverter Hardware"**
@@ -69,4 +71,5 @@ Model identifiers are withheld pending vendor remediation.
 
 The captures and documentation are licensed under the Creative Commons Attribution 4.0
 International License (CC BY 4.0), see `LICENSE`. Please cite the dataset as given in
-`CITATION.cff`.
+`CITATION.cff`: Kujovic, A. (2026). Modbus/TCP PV Inverter Attack Dataset. Zenodo.
+https://doi.org/10.5281/zenodo.23321340 (all versions; v1.0.0: 10.5281/zenodo.23321341).

@@ -4,6 +4,8 @@ title: "Modbus/TCP PV Inverter Attack Dataset"
 type: dataset
 version: 1.0.0
 license: CC-BY-4.0
+doi: 10.5281/zenodo.23321340
+date-released: 2026-10-12
 authors:
   - family-names: Kujovic
     given-names: Adnan
