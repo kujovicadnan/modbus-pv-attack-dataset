@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Modbus/TCP PV Inverter Attack Dataset"
+type: dataset
+version: 1.0.0
+license: CC-BY-4.0
+authors:
+  - family-names: Kujovic
+    given-names: Adnan
+    affiliation: "Technische Hochschule Mittelhessen (THM) University of Applied Sciences"
+repository-code: "https://github.com/kujovicadnan/modbus-pv-attack-dataset"
+abstract: "Anonymised packet captures of Modbus/TCP command injection, register probing and ARP-poisoning denial of service against a commercial residential PV inverter, with a baseline session."
+keywords:
+  - Modbus/TCP
+  - photovoltaic inverter
+  - command injection
+  - denial of service
+  - packet capture
+  - smart grid security

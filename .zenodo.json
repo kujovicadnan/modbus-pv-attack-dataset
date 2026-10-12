@@ -1,0 +1,11 @@
+{
+  "title": "Modbus/TCP PV Inverter Attack Dataset",
+  "upload_type": "dataset",
+  "description": "<p>Anonymised packet captures (pcapng) of six experimental sessions against a commercial residential PV inverter: Modbus/TCP command injection, register probing, ARP-poisoning denial of service, and a baseline reconnaissance session. The captures contain only traffic between the four documented test roles (Modbus/TCP, ARP, ICMP). Vendor and model identifiers are withheld pending vendor remediation.</p>",
+  "creators": [
+    {"name": "Kujovic, Adnan", "affiliation": "Technische Hochschule Mittelhessen (THM) University of Applied Sciences"}
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": ["Modbus/TCP", "photovoltaic inverter", "command injection", "denial of service", "packet capture", "smart grid security"]
+}
