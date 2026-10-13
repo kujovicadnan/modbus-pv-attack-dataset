@@ -39,6 +39,12 @@ between the first and the last retained packet are smaller, as listed below.
 | `session5_probing_exc04_t6.pcapng` | Register probing: writable registers | 249.1 s | 413 / 239 | 10 FC6 exc. 0x04 |
 | `session6_baseline_recon.pcapng` | Baseline FC3 reconnaissance, no attack | 251.0 s | 934 / 463 | 102 FC3 req/resp |
 
+Note on the probing counts: the paper reports 27 FC6 exceptions with code 0x04 for the
+probing sessions t5 and t6. The two published captures contain 15 and 10 such exceptions
+(25 in total), both before and after sanitisation. The difference is not contained in the
+published files. The 48 FC6 exceptions with code 0x02 reported for the injection sessions
+match sessions 1 and 2 (18 and 30).
+
 ## Key Findings Reproducible from Captures
 
 - **Exception 0x02** in sessions 1 and 2: inverter processed all forged FC6 commands at application layer with no source authentication
